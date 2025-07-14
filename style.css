@@ -7,8 +7,8 @@
 }
 
 .Quadro {
-  width: 800px;
-  height: 700px;
+  width: 1000px;
+  height: 900px;
   border: 2px solid black;
   border-radius: 10px;
   background: radial-gradient(#18221a, #04100d);
@@ -28,7 +28,7 @@
   border-radius: 10px;
 
   display: flex;
-  flex-direction: column;       
+  flex-direction:column;      
   align-items: center;
 
   padding: 20px;
@@ -62,8 +62,56 @@
   height: auto;
   display: block;
 }
- /* section vendo builds */
+ /* section vendo */
 #BuildsSalvas {
     display: none;
 }
 
+.Tela1 {
+  width: 600px;
+  height: 200px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 4px solid rgb(165, 165, 165);    
+  background-color: #d8d7ca;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fondamento', cursive;
+  color: black;
+  text-align: center;
+}
+
+.Tela1 h1, h4 {
+    font-family: 'Fondamento', cursive;
+}
+
+.Tela2 {
+  width: 600px;
+  height: 200px; /* altura visível */
+  margin-top: 20px;
+  padding: 20px;
+  border: 4px solid rgb(165, 165, 165);    
+  background-color: #d8d7ca;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto; /* scroll vertical */
+
+  font-family: 'Fondamento', cursive;
+  color: black;
+  text-align: center;
+}
+
+.build-icon {
+  width: 50px;             /* pequeno-médio */
+  height: 50px;
+  border-radius: 50%;      /* arredondado */
+  object-fit: cover;       /* garante que a imagem preencha o espaço sem distorcer */
+  margin-right: 8px;       /* espaço entre a imagem e o texto */
+  vertical-align: middle;  /* alinha a imagem com o texto */
+}

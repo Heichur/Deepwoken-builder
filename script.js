@@ -6,12 +6,13 @@ function sim() {
     section.style.display = "block";
   section.scrollIntoView({ behavior: "smooth" });
 
-  const Tabela = document.querySelector("Tabelas")
+  const Tabela = document.querySelector(".Tabelas")
   const logo = document.getElementById("logo")
-  const botao = document.querySelector("botoes")
 
    Tabela.style.display = "none";
- 
+  Tabela.scrollIntoView({ behavior: "smooth" });
+  logo.style.display = "none"
+  
 }
 
 function nao() {
@@ -23,3 +24,6 @@ function nao() {
      alert ("Por que você apertou não?")
     }
 }
+
+
+
